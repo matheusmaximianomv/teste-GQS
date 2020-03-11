@@ -4,7 +4,7 @@ class Turma {
         this.semestre = semestre;
         this.curso = curso;
         this.quantAluno = quantAluno;
-        this.disciplinas = diciplinas;
+        this.disciplinas = disciplinas;
 		this.turno = turno;
     }
 

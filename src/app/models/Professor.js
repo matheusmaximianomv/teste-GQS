@@ -22,7 +22,7 @@ class Professor {
     }
 
     setMatricula(matricula) {
-        this.matricula = parseFloat(matricula);
+        this.matricula = matricula;
         return;
     }
 
@@ -31,7 +31,7 @@ class Professor {
     }
 
     setDisciplina(disciplina) {
-        this.disciplina = parseFloat(disciplina);
+        this.disciplina = disciplina;
         return;
     }
 
@@ -40,7 +40,7 @@ class Professor {
     }
 
     setCpf(cpf) {
-        this.cpf = parseFloat(cpf);
+        this.cpf = cpf;
         return;
     }
 
@@ -49,7 +49,7 @@ class Professor {
     }
 
     setRg(rg) {
-        this.rg = parseFloat(rg);
+        this.rg = rg;
         return;
     }
 

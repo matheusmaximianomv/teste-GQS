@@ -7,7 +7,7 @@ describe('Testing methods of class Turma', () => {
 
         turma.setSemestre("5° semestre");
 
-        expect(turma.getName()).toBe("Matheus Maximiano");
+        expect(turma.getSemestre()).toBe("5° semestre");
     });
 
     it('should set the value of the variable curso', () => {

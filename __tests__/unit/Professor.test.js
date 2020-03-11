@@ -13,9 +13,9 @@ describe('Testing methods of class Professor', () => {
     it('should set the value of the variable matricula', () => {
         const professor = new Professor();
 
-        professor.setMatricula(TI030);
+        professor.setMatricula("TI030");
 
-        expect(professor.getMatricula()).toBe(TI030);
+        expect(professor.getMatricula()).toBe("TI030");
     });
     
     it('should set the value of the variable disciplina', () => {
